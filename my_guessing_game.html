@@ -1,0 +1,20 @@
+<script type="text/javascript">
+
+	var user_guess,
+		answer;
+
+	user_guess = prompt("How many Major League Baseball teams are there as of today?");
+
+	answer = Math.floor(30);
+
+	if (user_guess == answer) {
+		alert("Congratulations! You guessed right.")
+	} else if (user_guess <= answer) {
+		alert("Almost there! Refresh to try again!")
+	} else {
+		alert("I'm sorry, your guess is more than the actual number. Please refresh to try again.")
+	};
+
+
+
+</script>
