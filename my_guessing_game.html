@@ -1,25 +1,25 @@
 <script type="text/javascript">
 	var userChoice = prompt("How many Major League Baseball teams are there today?");
-	var answer = Math.floor(30)
-	if (userChoice == answer) 
-	{
-		alert("Congratulations! You've guessed correct!");
-	} 
-	else if (userChoice <= 10) 
-	{
-		alert("Sorry! Your guess is too low. Please refresh the page to try again.");
-	} 
-	else if ((userChoice > 10) && (userChoice <= 20)) 
-	{
-		alert("Almost there! Please refresh the page to try again.");
-	} 
-	else if ((userChoice > 20) && (userChoice < answer)) 
-	{
-		alert("Super close! Please refresh the page to try again.");
-	} 
-	else 
-	{
-		alert("Ouch. You've guessed a higher number than the number of teams. Please refresh to try again.")
-	}
+	var answer = 30;
+		if (userChoice == answer) 
+			{
+			alert("Congratulations! You've guessed correct!");
+			} 
+		else if (userChoice <= 10) 
+			{
+			alert("Sorry! Your guess is too low. Please refresh the page to try again.");
+			} 
+		else if ((userChoice > 10) && (userChoice <= 20)) 
+			{
+			alert("Almost there! Please refresh the page to try again.");
+			} 
+		else if ((userChoice > 20) && (userChoice < answer)) 
+			{
+			alert("Super close! Please refresh the page to try again.");
+			} 
+		else 
+			{
+			alert("Ouch. You've guessed a higher number than the number of teams. Please refresh to try again.")
+			}
 
 </script>
